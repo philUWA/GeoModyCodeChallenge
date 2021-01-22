@@ -39,7 +39,7 @@ Use this API! [TheCocktailDB](https://www.thecocktaildb.com/api.php).
   - [Jest](https://jestjs.io/) is provided for testing. Tests are important of course, but we don't expect you to do hardcore TDD. We use tests for anything novel that we write, to make sure that it works how we expect it to.
   - [fp-ts](https://github.com/gcanti/fp-ts) is provided if you want to use some more advanced functional programming techniques in your work. Think of this as optional! It definitely shouldn't distract you from just doing a nice job with regular TypeScript.
 
-## Execution Plan:
+## The execution plan
 
 ### Keep in mind
 
@@ -52,7 +52,7 @@ Use this API! [TheCocktailDB](https://www.thecocktaildb.com/api.php).
 
 ### `<<><ktail a0.2`
 
-- To make Jeff's life easier, you decide to add a history of recent cocktails so he doesn't wear out his little flippers typing so much. The names of recently made cocktails should be added to this list, so Jeff can just select list item as a shortcut.
+- To make Jeff's life easier, you decide to add a history of recent cocktails so he doesn't wear out his little flippers typing so much. The names of recently made cocktails should be added to this list, so Jeff can just select list item as a shortcut. Importantly, this list should not disappear when Jeff closes his browser and goes home for the night, but should visible when Jeff gets to work the next day and fires up his PocketPC again.
 
 ### `<<><ktail a0.3`
 
