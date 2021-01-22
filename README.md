@@ -27,12 +27,24 @@ You know that the biggest issue will be his short memory, but since you have bee
 
 ## The nitty gritty
 
-- Luckily there is a publicly available api you can use! [TheCocktailDB](https://www.thecocktaildb.com/api.php).
+Use this API! [TheCocktailDB](https://www.thecocktaildb.com/api.php).
+
+- You are using TypeScript. We love types! When we see `any` without an exceptionally good reason, it fills us with a deep melancholy.
+- You are using React
+  - We love modern React, with the function component style. I'm not talking React.FC, I'm talking "component is a function" style.
+  - We love React hooks! You should use this project as an opportunity to demonstrate your understanding of at least a few of them.
+
 - We have installed
   - [Axios](https://github.com/axios/axios) for XHR requests.
   - [Jest](https://jestjs.io/) is provided for testing. Tests are important of course, but we don't expect you to do hardcore TDD. We use tests for anything novel that we write, to make sure that it works how we expect it to.
+  - [fp-ts](https://github.com/gcanti/fp-ts) is provided if you want to use some more advanced functional programming techniques in your work. Think of this as optional! It definitely shouldn't distract you from just doing a nice job with regular TypeScript.
 
-## Execution:
+## Execution Plan:
+
+### Keep in mind
+
+- Goldfish are very aesthetically minded creatures, so it shouldn't be *too* ugly, you suppose.
+- Perfect execution of this project would see three nicely constructed commits; one for each of these features (a0.1, a0.2, a0.3). (But obviously while you work you can commit as often as you like.)
 
 ### MVP `<<><ktail a0.1`
 
@@ -45,12 +57,6 @@ You know that the biggest issue will be his short memory, but since you have bee
 ### `<<><ktail a0.3`
 
 - Jeff has been getting a lot of people coming up to the bar making useless requests like "Do you have anything with fireball in it?" or "Can I get something with bleach and hydroxychloroquine?", and while goldfish are great at smalltalk, they are terrible with creative thinking. So you decide to give Jeff a tool where he can type in a few ingredients and try to find a recipe containing at least two of them.
-
-
-### Non-functional Requirements
-
-- Goldfish are very aesthetically minded creatures, so it shouldn't be too ugly you suppose.
-- Perfect execution of this project would see three nicely constructed commits; one for each of these features (a0.1, a0.2, a0.3).
 
 ```
                                                            
@@ -69,7 +75,7 @@ You know that the biggest issue will be his short memory, but since you have bee
 ```
 
 
-# BORING DETAILS
+# Standard boring details from `create-react-app`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
