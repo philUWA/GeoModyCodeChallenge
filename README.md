@@ -48,7 +48,7 @@ Use this API! [TheCocktailDB](https://www.thecocktaildb.com/api.php).
 
 ### MVP `<<><ktail a0.1`
 
-- Jeff can type in the name of a cocktail, and if it exists the ingredients will be displayed. If the cocktail doesn't exist, you mock him inventively because negative reinforcement is a critical part of your work culture.
+- Jeff can type in the name of a cocktail, and if it exists the ingredients will be displayed. If the cocktail doesn't exist, you mock him inventively because negative reinforcement is a critical part of your work culture. (It shouldn't be too hard to find an API to help with that...)
 
 ### `<<><ktail a0.2`
 
