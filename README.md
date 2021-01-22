@@ -1,4 +1,75 @@
-# Getting Started with Create React App
+
+```
+                                                           
+     .-.   .-.  .-.          .-.                     .---. 
+    / \_\ / \_\/_/ \        / \_\                .--.|   | 
+   /  / //  / /\ \  \      /  / /                |__||   | 
+  /  / //  / /  \ \  \    /  / /    .|           .--.|   | 
+ /  / //  / /    \ \  \  /  / /   .' |_     __   |  ||   | 
+'  <-<'  <-<      >->  `'  <-<  .'     | .:--.'. |  ||   | 
+ \  \ \\  \ \    / /  /  \  \ \'--.  .-'/ |   \ ||  ||   | 
+  \  \ \\  \ \  / /  /    \  \ \  |  |  `" __ | ||  ||   | 
+   \  \_\\  \_\/_/  /      \  \_\ |  |   .'.''| ||__||   | 
+    \ / / \ / /\ \ /        \ / / |  '.'/ /   | |_   '---' 
+     '-'   '-'  `-`          '-'  |   / \ \._,\ '/         
+                                  `'-'   `--'  `"          
+```
+
+## The setup
+
+There he is again, just swimming around not contributing. That lazy, good for nothing goldfish. Jeff.
+
+Doesn't he realise there is a financial crisis going on? The world is in the grip of a pandemic for God's sake. Yet there he is, just swimming laps and hanging out with his little old-timey diver statue, catching Zs in his little ruined castle.
+
+Eventually you snap, and demand that he start paying rent. Time to get a job. Confused, the Jeff shrugs and mumbles that he really doesn't know much about anything. Not that he can remember anyway. With a flash of insight you point out that he has spent his entire life around glassware and liquids, a perfect CV for a barman.
+
+You know that the biggest issue will be his short memory, but since you have been laid off due to the downturn and are still waiting for your OnlyFans to take off, you set out to make a simple tool for Jeff to use, so he can fake it until he makes it. And by **it** we mean enough money to cover your basic living expenses (until that OnlyFans starts bringing down the big bucks).
+
+## The nitty gritty
+
+- Luckily there is a publicly available api you can use! [TheCocktailDB](https://www.thecocktaildb.com/api.php).
+- We have installed
+  - [Axios](https://github.com/axios/axios) for XHR requests.
+  - [Jest](https://jestjs.io/) is provided for testing. Tests are important of course, but we don't expect you to do hardcore TDD. We use tests for anything novel that we write, to make sure that it works how we expect it to.
+
+## Execution:
+
+### MVP `<<><ktail a0.1`
+
+- Jeff can type in the name of a cocktail, and if it exists the ingredients will be displayed. If the cocktail doesn't exist, you mock him inventively because negative reinforcement is a critical part of your work culture.
+
+### `<<><ktail a0.2`
+
+- To make Jeff's life easier, you decide to add a history of recent cocktails so he doesn't wear out his little flippers typing so much. The names of recently made cocktails should be added to this list, so Jeff can just select list item as a shortcut.
+
+### `<<><ktail a0.3`
+
+- Jeff has been getting a lot of people coming up to the bar making useless requests like "Do you have anything with fireball in it?" or "Can I get something with bleach and hydroxychloroquine?", and while goldfish are great at smalltalk, they are terrible with creative thinking. So you decide to give Jeff a tool where he can type in a few ingredients and try to find a recipe containing at least two of them.
+
+
+### Non-functional Requirements
+
+- Goldfish are very aesthetically minded creatures, so it shouldn't be too ugly you suppose.
+- Perfect execution of this project would see three nicely constructed commits; one for each of these features (a0.1, a0.2, a0.3).
+
+```
+                                                           
+     .-.   .-.  .-.          .-.                     .---. 
+    / \_\ / \_\/_/ \        / \_\                .--.|   | 
+   /  / //  / /\ \  \      /  / /                |__||   | 
+  /  / //  / /  \ \  \    /  / /    .|           .--.|   | 
+ /  / //  / /    \ \  \  /  / /   .' |_     __   |  ||   | 
+'  <-<'  <-<      >->  `'  <-<  .'     | .:--.'. |  ||   | 
+ \  \ \\  \ \    / /  /  \  \ \'--.  .-'/ |   \ ||  ||   | 
+  \  \ \\  \ \  / /  /    \  \ \  |  |  `" __ | ||  ||   | 
+   \  \_\\  \_\/_/  /      \  \_\ |  |   .'.''| ||__||   | 
+    \ / / \ / /\ \ /        \ / / |  '.'/ /   | |_   '---' 
+     '-'   '-'  `-`          '-'  |   / \ \._,\ '/         
+                                  `'-'   `--'  `"          
+```
+
+
+# BORING DETAILS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
